@@ -8,7 +8,7 @@ def msgThrow(msg, method="throw", alert=True):
     else:
         frappe.throw(msg)
 
-
+"""Only trying git functions"""
 def msgPrint(msg, method="throw", alert=False):
     if method == "validate":
         frappe.msgprint(msg, alert=True)
